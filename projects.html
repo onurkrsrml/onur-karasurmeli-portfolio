@@ -3,79 +3,96 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Onur K.'nin yapay zekâ ve veri bilimi projeleri portföyü">
-    <title>Projeler | Onur K.</title>
+    <meta name="description" content="Onur K. - Artificial intelligence and data science project portfolio">
+    <title>Projects | Onur K.</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
         <nav>
-            <a href="index.html">Ana Sayfa</a>
-            <a href="resume.html">Özgeçmiş</a>
-            <a href="projects.html" class="active">Projeler</a>
+            <a href="index.html">MAIN PAGE</a>
+            <a href="resume.html">RESUME</a>
+            <a href="projects.html" class="active">PROJECTS</a>
         </nav>
     </header>
     <main class="content projects">
-        <h1>Projeler</h1>
+        <h1>PROJECTS</h1>
         <section class="summary">
-            <h2>Öne Çıkan Çalışmalar</h2>
-            <p>Miuul Data Scientist Bootcamp kapsamında geliştirilen örnek projeler. E‑ticaret müşteri segmentasyonu, churn tahmini ve hibrit tavsiye sistemleri gibi gerçek dünyadan case çalışmalarını içerir.</p>
+            <h2>Featured Works</h2>
+            <p>Examples of projects developed during the Miuul Data Scientist Bootcamp. Includes real-world case studies such as e-commerce customer segmentation, churn prediction, and hybrid recommendation systems.</p>
         </section>
         <section class="projects-grid">
             <article class="project-card">
                 <div class="project-head">
-                    <h2>E‑Ticaret Müşteri Segmentasyonu</h2>
+                    <h2>Bank Fraud Detection</h2>
                     <div class="pill-group">
-                        <span class="pill">RFM Analizi</span>
-                        <span class="pill">Segmentasyon</span>
+                        <span class="pill">FRAUD DETECTION</span>
+                        <span class="pill">MACHINE LEARNING</span>
+                        <span class="pill">STREAMLIT</span>
+                    </div>
+                </div>
+                <p>This project, which predicts fraud in financial transactions, aims to identify the best approaches by comparing the performance of different machine learning models. It includes data preprocessing using Python, balancing imbalanced classes with SMOTE, model training, and evaluation. It also provides a Streamlit interface that allows users to upload their own data and perform interactive analysis.</p>
+                <ul class="achievement-list">
+                    <li>Comparing the performance of multiple machine learning algorithms on balanced data with SMOTE.</li>
+                    <li>With the Streamlit interface, users can upload their data and visualize the results of their selected models.</li>
+                </ul>
+                <a class="project-link" href="https://miuul-final-project-fraud-detection.streamlit.app/" target="_blank" rel="noopener">SEE ON STREAMLIT</a>
+            </article>
+            
+            <article class="project-card">
+                <div class="project-head">
+                    <h2>E-Commerce Customer Segmentation</h2>
+                    <div class="pill-group">
+                        <span class="pill">RFM Analysis</span>
+                        <span class="pill">Segmentation</span>
                         <span class="pill">Python</span>
                     </div>
                 </div>
-                <p>RFM analizi ve kural tabanlı sınıflandırma ile e‑ticaret müşterilerini davranışa dayalı segmentlere ayıran proje. Segmentasyon sayesinde pazarlama stratejilerinin kişiselleştirilmesini sağladı.</p>
+                <p>This project segments e-commerce customers into behavior-based segments using RFM analysis and rule-based classification. The segmentation enabled the personalization of marketing strategies.</p>
                 <ul class="achievement-list">
-                    <li>RFM skorlarına göre 7 müşteri segmenti tanımlandı ve otomatik segmentasyon pipeline'ı oluşturuldu.</li>
-                    <li>Çapraz satış kampanyalarının dönüşüm oranında %15 artış elde edildi.</li>
+                    <li>7 customer segments were defined based on RFM scores, and an automated segmentation pipeline was created.</li>
+                    <li>Cross-selling campaign conversion rates increased by 15%.</li>
                 </ul>
-                <a class="project-link" href="https://github.com/onurkrsrml" target="_blank" rel="noopener">GitHub'da Gör</a>
+                <a class="project-link" href="https://github.com/onurkrsrml" target="_blank" rel="noopener">SEE ON GITHUB</a>
             </article>
 
             <article class="project-card">
                 <div class="project-head">
-                    <h2>Telco Müşteri Kaybı Tahmini</h2>
+                    <h2>Telco Customer Churn Prediction</h2>
                     <div class="pill-group">
-                        <span class="pill">Sınıflandırma</span>
-                        <span class="pill">Makine Öğrenmesi</span>
-                        <span class="pill">Telekom</span>
+                        <span class="pill">Classification</span>
+                        <span class="pill">Machine Learning</span>
+                        <span class="pill">Telecom</span>
                     </div>
                 </div>
-                <p>Telekom abonelerinin churn (müşteri kaybı) olasılığını tahmin etmek için makine öğrenmesi tabanlı sınıflandırma modeli geliştirildi. Özellik mühendisliği ve hiperparametre optimizasyonu kullanıldı.</p>
+                <p>A machine learning-based classification model was developed to predict the churn (customer loss) probability of telecom subscribers. Feature engineering and hyperparameter optimization were used.</p>
                 <ul class="achievement-list">
-                    <li>Doğruluk ve AUC skorlarında baseline modellere göre %8 iyileşme sağlandı.</li>
-                    <li>Potansiyel kayıp müşterilerin erken tespiti için izleme paneli oluşturuldu.</li>
+                    <li>An 8% improvement was achieved in accuracy and AUC scores compared to baseline models.</li>
+                    <li>A monitoring dashboard was created for the early detection of potential churn customers.</li>
                 </ul>
-                <a class="project-link" href="https://github.com/onurkrsrml" target="_blank" rel="noopener">GitHub'da Gör</a>
+                <a class="project-link" href="https://github.com/onurkrsrml" target="_blank" rel="noopener">SEE ON GITHUB</a>
             </article>
 
             <article class="project-card">
                 <div class="project-head">
-                    <h2>Hibrit Tavsiye Sistemi</h2>
+                    <h2>Hybrid Recommendation System</h2>
                     <div class="pill-group">
-                        <span class="pill">Tavsiye Sistemleri</span>
+                        <span class="pill">Recommendation Systems</span>
                         <span class="pill">Python</span>
-                        <span class="pill">ARL &amp; İşbirlikçi</span>
+                        <span class="pill">ARL &amp; Collaborative</span>
                     </div>
                 </div>
-                <p>Bir e‑ticaret platformu için alışveriş sepeti analizi (ARL) ve işbirlikçi filtreleme tekniklerini birleştiren hibrit öneri sistemi. Hem ürün çeşitliliğini hem de kişiselleştirmeyi artırdı.</p>
+                <p>A hybrid recommendation system that combines market basket analysis (ARL) and collaborative filtering techniques for an e-commerce platform. It enhanced both product diversity and personalization.</p>
                 <ul class="achievement-list">
-                    <li>Sepet bazlı birliktelik kuralları ve kullanıcı-bazlı filtreleme ile önerilerin çeşitliliği %20 arttı.</li>
-                    <li>Kullanıcıların etkileşim oranı ve ortalama sepet büyüklüğü anlamlı şekilde iyileştirildi.</li>
+                    <li>The diversity of recommendations increased by 20% through basket-based association rules and user-based filtering.</li>
+                    <li>User engagement and average basket size were significantly improved.</li>
                 </ul>
-                <a class="project-link" href="https://github.com/onurkrsrml" target="_blank" rel="noopener">GitHub'da Gör</a>
+                <a class="project-link" href="https://github.com/onurkrsrml" target="_blank" rel="noopener">SEE ON GITHUB</a>
             </article>
         </section>
     </main>
     <footer>
-        <small>© 2025 Onur K. · Proje portföyü</small>
+        <small>© 2025 Onur K. · Project Portfolio</small>
     </footer>
 </body>
 </html>
