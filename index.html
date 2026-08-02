@@ -1,20 +1,103 @@
 <!DOCTYPE html>
-<html lang="tr">
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Onur Karasürmeli personal portfolio landing page">
-    <title>Onur Karasürmeli</title>
-    <link rel="stylesheet" href="styles.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>About | Onur Karasurmeli</title>
+<meta name="description" content="Onur Karasurmeli — IT Assistant building a foundation in Data Science and Machine Learning.">
+<link rel="stylesheet" href="css/style.css">
+<link rel="icon" href="assets/images/light-logo.png" media="(prefers-color-scheme: light)">
+<link rel="icon" href="assets/images/dark-logo.png" media="(prefers-color-scheme: dark)">
 </head>
-<body>
-    <main class="landing">
-        <h1>Onur Karasürmeli</h1>
-        <div class="social-links" aria-label="Sosyal medya bağlantıları">
-            <a href="https://www.linkedin.com/in/onurkarasurmeli/" target="_blank" rel="noopener">LinkedIn</a>
-            <a href="https://github.com/onurkrsrml" target="_blank" rel="noopener">GitHub</a>
+<body data-page="about">
+
+<div class="mobile-topbar">
+  <a href="index.html" class="mobile-topbar__brand">
+    <img src="assets/images/light-logo.png" alt="Onur Karasurmeli Logo" class="logo logo--light">
+    <img src="assets/images/dark-logo.png" alt="Onur Karasurmeli Logo" class="logo logo--dark">
+    <span>Onur Karasurmeli</span>
+  </a>
+  <button class="mobile-topbar__toggle" type="button">Menu</button>
+</div>
+
+<div class="shell">
+
+  <nav class="sidenav">
+    <a href="index.html" class="sidenav__brand">
+      <img src="assets/images/light-logo.png" alt="Onur Karasurmeli Logo" class="logo logo--light">
+      <img src="assets/images/dark-logo.png" alt="Onur Karasurmeli Logo" class="logo logo--dark">
+      <span>Onur Karasurmeli</span>
+    </a>
+    <ul>
+      <li><a href="index.html" data-page="about">About</a></li>
+      <li><a href="education.html" data-page="education">Education</a></li>
+      <li><a href="experience.html" data-page="experience">Experience</a></li>
+      <li><a href="projects.html" data-page="projects">Projects</a></li>
+      <li><a href="skills.html" data-page="skills">Skills</a></li>
+    </ul>
+  </nav>
+
+  <main class="main">
+    <h1 class="page-title">About</h1>
+    <hr class="rule">
+
+    <div class="content">
+      <div class="avatar" aria-hidden="true">
+        <img src="assets/images/pp.png" alt="Onur Karasurmeli">
+      </div>
+
+      <div class="social-row">
+        <a href="https://www.linkedin.com/in/onurkarasurmeli/" target="_blank" rel="noopener" aria-label="LinkedIn">
+          <svg viewBox="0 0 24 24"><path d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.03-1.85-3.03-1.86 0-2.14 1.45-2.14 2.94v5.66H9.34V9h3.42v1.56h.05c.48-.9 1.64-1.85 3.38-1.85 3.61 0 4.28 2.38 4.28 5.47v6.27zM5.34 7.43a2.07 2.07 0 1 1 0-4.13 2.07 2.07 0 0 1 0 4.13zM7.12 20.45H3.56V9h3.56v11.45z"/></svg>
+        </a>
+        <a href="https://github.com/onurkrsrml/" target="_blank" rel="noopener" aria-label="GitHub">
+          <svg viewBox="0 0 24 24"><path d="M12 2a10 10 0 0 0-3.16 19.49c.5.09.68-.22.68-.48v-1.7c-2.78.6-3.37-1.34-3.37-1.34-.46-1.16-1.11-1.47-1.11-1.47-.9-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.9 1.52 2.34 1.08 2.91.83.09-.65.35-1.08.63-1.33-2.22-.25-4.56-1.11-4.56-4.95 0-1.09.39-1.99 1.03-2.69-.1-.25-.45-1.27.1-2.64 0 0 .84-.27 2.75 1.02a9.5 9.5 0 0 1 5 0c1.91-1.3 2.75-1.02 2.75-1.02.55 1.37.2 2.39.1 2.64.64.7 1.03 1.6 1.03 2.69 0 3.85-2.34 4.7-4.57 4.94.36.31.68.92.68 1.85v2.74c0 .27.18.58.69.48A10 10 0 0 0 12 2z"/></svg>
+        </a>
+        <a href="mailto:onurkarasurmeli.ok@gmail.com" aria-label="Email">
+          <svg viewBox="0 0 24 24"><path d="M20 4H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2zm0 2-8 6-8-6h16zm0 12H4V8l8 6 8-6v10z"/></svg>
+        </a>
+        <a href="https://www.kaggle.com/onurkarasurmeli" target="_blank" rel="noopener" aria-label="Kaggle">
+          <svg viewBox="0 0 24 24"><path transform="translate(5, 0)" d="M18.825 23.859c-.022.092-.117.141-.281.141h-3.139c-.187 0-.331-.058-.429-.173L7.75 12.983 4.29 16.516v7.051c0 .188-.04.305-.121.352-.081.047-.194.07-.338.07H.568c-.144 0-.253-.023-.327-.07-.074-.047-.111-.164-.111-.352V.438c0-.188.037-.305.111-.352.074-.047.183-.07.327-.07h3.263c.144 0 .257.023.338.07.081.047.121.164.121.352v15.228l8.397-9.529c.141-.164.305-.246.492-.246h3.409c.164 0 .266.059.305.176.039.117.027.223-.035.316l-7.401 8.286 8.35 11.836c.07.094.086.195.047.305z"/></svg>
+        </a>
+      </div>
+
+      <a class="cv-button" href="assets/Onur_Karasurmeli_CV.pdf" target="_blank" rel="noopener">Download CV</a>
+
+      <hr class="rule--short">
+
+      <div class="about-text">
+        <p><strong>Onur Karasurmeli</strong> is an IT Assistant based in Istanbul, Turkey, building a strong technical foundation in Tier-1 global IT operations while pursuing a deep, hands-on interest in Data Science. He supports Microsoft 365 administration, global helpdesk operations, and end-user infrastructure for a group of companies spanning more than twenty countries.</p>
+
+        <p>Alongside his day-to-day IT responsibilities, Onur is actively developing his analytical and machine learning skill set — engineering end-to-end pipelines with Python, building predictive models with Scikit-Learn and XGBoost, and shipping interactive applications with Streamlit and Flask. He holds an Associate Degree in Computer Programming from Inönü University and completed an Erasmus+ internship in the United Kingdom.</p>
+
+        <p>He's currently exploring opportunities that let him grow from IT support into a hands-on Data Science or Machine Learning role, combining his operational discipline with his growing portfolio of applied ML projects.</p>
+      </div>
+    </div>
+
+    <footer class="site-footer">
+      <hr class="rule--short">
+      <div class="site-footer__row">
+        <a href="index.html" class="site-footer__brand">Onur Karasurmeli</a>
+        <div class="social-row">
+          <a href="https://www.linkedin.com/in/onurkarasurmeli/" target="_blank" rel="noopener" aria-label="LinkedIn">
+            <svg viewBox="0 0 24 24"><path d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.03-1.85-3.03-1.86 0-2.14 1.45-2.14 2.94v5.66H9.34V9h3.42v1.56h.05c.48-.9 1.64-1.85 3.38-1.85 3.61 0 4.28 2.38 4.28 5.47v6.27zM5.34 7.43a2.07 2.07 0 1 1 0-4.13 2.07 2.07 0 0 1 0 4.13zM7.12 20.45H3.56V9h3.56v11.45z"/></svg>
+          </a>
+          <a href="https://github.com/onurkrsrml/" target="_blank" rel="noopener" aria-label="GitHub">
+            <svg viewBox="0 0 24 24"><path d="M12 2a10 10 0 0 0-3.16 19.49c.5.09.68-.22.68-.48v-1.7c-2.78.6-3.37-1.34-3.37-1.34-.46-1.16-1.11-1.47-1.11-1.47-.9-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.9 1.52 2.34 1.08 2.91.83.09-.65.35-1.08.63-1.33-2.22-.25-4.56-1.11-4.56-4.95 0-1.09.39-1.99 1.03-2.69-.1-.25-.45-1.27.1-2.64 0 0 .84-.27 2.75 1.02a9.5 9.5 0 0 1 5 0c1.91-1.3 2.75-1.02 2.75-1.02.55 1.37.2 2.39.1 2.64.64.7 1.03 1.6 1.03 2.69 0 3.85-2.34 4.7-4.57 4.94.36.31.68.92.68 1.85v2.74c0 .27.18.58.69.48A10 10 0 0 0 12 2z"/></svg>
+          </a>
+          <a href="mailto:onurkarasurmeli.ok@gmail.com" aria-label="Email">
+            <svg viewBox="0 0 24 24"><path d="M20 4H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2zm0 2-8 6-8-6h16zm0 12H4V8l8 6 8-6v10z"/></svg>
+          </a>
+          <a href="https://www.kaggle.com/onurkarasurmeli" target="_blank" rel="noopener" aria-label="Kaggle">
+            <svg viewBox="0 0 24 24"><path transform="translate(5, 0)" d="M18.825 23.859c-.022.092-.117.141-.281.141h-3.139c-.187 0-.331-.058-.429-.173L7.75 12.983 4.29 16.516v7.051c0 .188-.04.305-.121.352-.081.047-.194.07-.338.07H.568c-.144 0-.253-.023-.327-.07-.074-.047-.111-.164-.111-.352V.438c0-.188.037-.305.111-.352.074-.047.183-.07.327-.07h3.263c.144 0 .257.023.338.07.081.047.121.164.121.352v15.228l8.397-9.529c.141-.164.305-.246.492-.246h3.409c.164 0 .266.059.305.176.039.117.027.223-.035.316l-7.401 8.286 8.35 11.836c.07.094.086.195.047.305z"/></svg>
+          </a>
         </div>
-        <p class="coming-soon">Coming soon</p>
-    </main>
+      </div>
+    </footer>
+  </main>
+
+</div>
+
+<script src="js/script.js"></script>
 </body>
 </html>
